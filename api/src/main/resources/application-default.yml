@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    consumer:
+      auto-commit-interval:
+  redis:
+    host: 127.0.0.1
+    password: foobared
+    port: 6379
+    database: 0
