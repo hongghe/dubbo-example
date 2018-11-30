@@ -15,6 +15,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HelloController {
 
+    /**
+     * 入口参数设计
+     * 
+     * @return
+     */
     @RequestMapping(value = "hello")
     public String helloWorld() {
         log.debug("[hello]", "format", "[arg]");
