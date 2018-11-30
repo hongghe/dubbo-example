@@ -11,11 +11,13 @@ import lombok.extern.slf4j.Slf4j;
  * @author hongghe 12/08/2018
  */
 @RestController
+@RequestMapping("/hello")
 @Slf4j
 public class HelloController {
 
     @RequestMapping(value = "hello")
     public String helloWorld() {
+        log.debug("[hello]", "format", "[arg]");
         return "hello";
     }
     

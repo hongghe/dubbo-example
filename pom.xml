@@ -6,7 +6,7 @@
 	<groupId>com.hongghe</groupId>
 	<artifactId>dubbo-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>POM</packaging>
+	<packaging>pom</packaging>
 
 	<name>dubbo-example</name>
 	<description>Demo project for Spring Boot</description>
