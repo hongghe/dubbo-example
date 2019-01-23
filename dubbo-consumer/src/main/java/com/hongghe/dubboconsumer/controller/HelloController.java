@@ -10,9 +10,9 @@ import lombok.extern.slf4j.Slf4j;
  *
  * @author hongghe 12/08/2018
  */
-@RestController
-@RequestMapping("/hello")
 @Slf4j
+@RestController
+@RequestMapping(path = "/hello")
 public class HelloController {
 
     @RequestMapping(value = "hello")
